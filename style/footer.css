@@ -1,0 +1,92 @@
+.logo {
+    height: 30px;
+}
+
+.footer-top .footer-content {
+    color: #737373;
+    font-size: 15px;
+}
+
+.footer-top .footer-content:hover{
+    color: #004aad;
+}
+
+.footer-top h6 {
+    font-size: 17px;
+}
+
+.footer-top ul{
+    list-style: none;
+ 
+    padding: 0;
+    margin: 0;
+}
+
+.footer-top li {
+    color: #737373;
+    line-height: 1.9;
+}
+
+.footer-top .menu a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer-top .menu a:hover{
+    color: #004aad;
+}
+
+.footer-top li:hover{
+    color: #004aad;
+}
+
+.footer-top .contact-details i {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.footer-top .social-icons a {
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 6px 8px;
+    border: 1px solid #0d062d29;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.footer-top .social-icons a i {
+    color: #1a1a1a;
+    transition: color 0.3s ease;
+}
+
+/* Hover Animation */
+.footer-top .social-icons a:hover {
+    background-color: #004aad;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 74, 173, 0.35);
+}
+
+.footer-top .social-icons a:hover i {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    color: #737373;
+    font-size: 16px;
+}
+
+.footer-bottom a {
+    color: #737373;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+    color: #004aad;
+}

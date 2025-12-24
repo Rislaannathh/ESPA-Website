@@ -1,0 +1,58 @@
+.site-header {
+    padding: 10px 140px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #959595 !important;
+    font-size: 17px !important;
+    font-family: Poppins;
+}
+
+.nav-link.active {
+    color: #004AAD !important;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: #004AAD !important;
+}
+
+.join-btn {
+    display: inline-block;
+    padding: 10px 41px;
+    border: 1.5px solid #004AAD;
+    border-radius: 50px;
+    color: #004AAD;
+    font-size: 17px !important;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.join-btn:hover {
+    background-color: #004AAD;
+    color: #fff;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 991px){
+    .site-header {
+    padding: 10px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .site-header {
+    padding: 10px;
+}
+}
